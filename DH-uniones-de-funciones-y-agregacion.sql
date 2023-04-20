@@ -37,3 +37,23 @@ on g.id  = m.genre_id ;
 
 select title , datediff(end_date, release_date) as duracion
 from series s ;
+
+-- desafio 5
+
+select first_name  from actors a 
+where length (first_name) > 6;
+
+select count(title) as "cantidad de episodios" from episodes e ;
+
+select s2.title, max(s.number)  from seasons s 
+inner join series s2
+on s2.id = s.serie_id
+group by s2.title 
+;
+
+select g.name, count(m.title)  from genres g 
+inner join movies m 
+on g.id = m.genre_id 
+group by g.name
+having count(m.title) >= 3
+;

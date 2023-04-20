@@ -21,3 +21,14 @@ El objetivo del proyecto es trabajar en un script SQL, para cumplir con las cons
     desafio 4:
         
         - mostrar de cada serie, la cantidad de dias desde su estreno hasta su fin, esta columna debe llamarse duracion.
+    
+    desafio 5:
+        
+        -listar los actores ordenados 
+        alfabeticamente cuyo nombre sea mayor a 6 caracteres
+        
+        - mostrar la cantidad total de los episodios guardados en la base de datos
+        
+        - obtener el titulo de todas las series y el total de temporadas de cada una de ellas
+        
+        -mostrar por cada genero la cantidad de peliculas que posee, siempre que sea mayor o igual que 3
