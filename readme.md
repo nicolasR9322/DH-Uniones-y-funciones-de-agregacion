@@ -13,3 +13,7 @@ El objetivo del proyecto es trabajar en un script SQL, para cumplir con las cons
         mostrar:
             
             - todos los actores o actrices, que han trabajado en cualquier pelicula de la saga de "Guerra de las galaxias", pero solo mostrandolos 1 vez
+
+    desafio 3:
+        
+        - listar los titulos de cada pelicula con su genero correspondiente, en caso de no tener genero se usara la leyenda "no tiene genero", usar la funcion COALESCE();

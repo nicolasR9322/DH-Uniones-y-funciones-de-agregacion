@@ -26,3 +26,9 @@ group by concat(a.first_name, " ", a.last_name)
 select g.name , s.title  from genres g 
 inner join series s 
 on g.id  = s.genre_id ;
+
+-- desafio 3
+
+select coalesce(g.name, "no tiene genero") , m.title  from genres g 
+right join movies m 
+on g.id  = m.genre_id ;
