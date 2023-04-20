@@ -32,3 +32,8 @@ on g.id  = s.genre_id ;
 select coalesce(g.name, "no tiene genero") , m.title  from genres g 
 right join movies m 
 on g.id  = m.genre_id ;
+
+-- desafio 4
+
+select title , datediff(end_date, release_date) as duracion
+from series s ;

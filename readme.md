@@ -17,3 +17,7 @@ El objetivo del proyecto es trabajar en un script SQL, para cumplir con las cons
     desafio 3:
         
         - listar los titulos de cada pelicula con su genero correspondiente, en caso de no tener genero se usara la leyenda "no tiene genero", usar la funcion COALESCE();
+
+    desafio 4:
+        
+        - mostrar de cada serie, la cantidad de dias desde su estreno hasta su fin, esta columna debe llamarse duracion.
